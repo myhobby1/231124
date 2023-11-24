@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+  char x,ch='a';
+  scanf("%c",&x);
+  
+  while(ch<=x)
+{
+  printfi("%c",ch++);
+}
+  return 0;
+
+}
