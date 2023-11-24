@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+  char *string=malloc(sizeof(char)*2001);
+  scanf("%d[^\n]s",string);
+  printf("%s",string);
+
+  return 0;
+
+}
